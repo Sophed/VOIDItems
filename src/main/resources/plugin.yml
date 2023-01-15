@@ -1,0 +1,18 @@
+name: VOIDItems
+version: '${project.version}'
+main: voiditems.voiditems.VOIDItems
+api-version: 1.18
+prefix: VOIDItems
+authors: [ Sophed ]
+description: Adds custom items with various unique properties.
+website: sophe.dev
+commands:
+  voiditems:
+    description: "Shows plugin information."
+    usage: /<command>
+  hat:
+    description: "Swaps the item in the user's hand with the item on their head."
+    usage: /<command>
+  spacehelmet:
+    description: "Gives the specified player a space helmet, or the user if no player is specified."
+    usage: /<command> <player>
